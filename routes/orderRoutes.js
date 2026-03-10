@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const Order = require("../Models/Order");
-const Crop = require("../Models/Crop");
+const Order = require("../models/Order");
+const Crop = require("../models/Crop");
 
 // Place a new order
 router.post("/", async (req, res) => {

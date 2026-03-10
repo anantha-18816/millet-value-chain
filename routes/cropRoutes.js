@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Crop = require("../Models/Crop");
+const Crop = require("../models/Crop");
 
 // Add a new crop listing
 router.post("/", async (req, res) => {
