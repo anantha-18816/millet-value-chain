@@ -1,3 +1,4 @@
+cat > config/db.js << 'EOF'
 const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
@@ -14,3 +15,5 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+EOF
+
